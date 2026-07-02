@@ -1,6 +1,6 @@
 Package: y2print
 Title: Enhanced Printing for Frequency Tibbles
-Version: 0.0.0.9000
+Version: 0.0.1.0
 Authors@R: 
     person("Adam", "Hubbs", , "adam@y2analytics.com", role = c("aut", "cre"))
 Description: Provides printing enhancments and QOL improvements for the display of frequency tibbles from the y2clerk package.
@@ -22,4 +22,4 @@ Imports:
     pillar,
     rlang
 Remotes:
-    y2analytics/y2clerk
+    y2analytics/y2clerk@printing-cleanup
