@@ -1,2 +1,22 @@
+
+
+<!-- README.md is generated from README.qmd. Please edit that file -->
+
 # y2print
-Enhanced printing for frequency tibbles
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+y2print enhances the display of frequency tibbles from the y2clerk
+package.
+
+## Installation
+
+You can install the development version of y2print from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("y2analytics/y2print")
+```
