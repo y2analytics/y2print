@@ -4,10 +4,22 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Adam", "Hubbs", , "adam@y2analytics.com", role = c("aut", "cre"))
 Description: Provides printing enhancments and QOL improvements for the display of frequency tibbles from the y2clerk package.
-License: GPL (>= 3)
+License: GPL (>= 3) + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
 Suggests: 
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    y2clerk,
+    stringr,
+    labelled
 Config/testthat/edition: 3
+Depends:
+    R (>= 4.1.0)
+Imports: 
+    cli,
+    dplyr,
+    pillar,
+    rlang
+Remotes:
+    y2analytics/y2clerk
