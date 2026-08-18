@@ -45,7 +45,7 @@ format_footer_advice.freq_y2 <- function(x, setup) {
     .print_buffer$last_freq <- x
 
     rows <- cli::cli_text(cli::col_silver(
-      "# {cli::symbol$info} Use `{.run [print(n = ...)](y2clerk::print_freq_inf())}` to see more rows"
+      "# {cli::symbol$info} Use `{.run [print(n = ...)](y2print::print_freq_inf())}` to see more rows"
     ))
     ###cli_text ends this function
   } else {
