@@ -7,7 +7,6 @@ Description: Provides printing enhancments and QOL improvements for the display 
 License: GPL (>= 3) + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 8.0.0
 Suggests: 
     testthat (>= 3.0.0),
     y2clerk,
@@ -22,4 +21,5 @@ Imports:
     pillar,
     rlang
 Remotes:
-    y2analytics/y2clerk@printing-cleanup
+    y2analytics/y2clerk
+Config/roxygen2/version: 8.1.0
